@@ -1,0 +1,95 @@
+/*configuracao pagina*/
+
+body{
+    color: white;
+    background-color: rgb(79, 73, 73);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    font-size: 25px;
+    
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 15px;
+    background-color: #2a5890;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+h1{
+    margin-bottom: 2%;
+}
+.centro{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+
+/*configuracao rodape*/
+.rodape {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    font-size: 20px;
+    height: 6vh;
+    background-color: #2a5890;
+    color: rgb(243, 232, 232);
+    font-family: Arial;
+}
+
+/*configuracao contato*/
+
+.contato {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 2%;
+    margin-top: -5%;
+
+}
+
+label {
+    display: blok;
+    padding-top: 15px;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid  #333;
+}
+
+textarea {
+    padding-bottom: 40%;
+}
+
+button {
+    background-color: #2a5890;
+    color: black;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: white;
+}
